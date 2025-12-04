@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikhil Sharma | Strategic Business Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Base styles from user request */
+      body {
+        background-color: #0A0A0A;
+        color: #A1A1AA;
+      }
+      
+      /* Animation Utilities Polyfill for tailwindcss-animate */
+      @keyframes enter {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      @keyframes slideInBottom {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes slideInRight {
+        from { opacity: 0; transform: translateX(20px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      
+      .animate-in {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .fade-in { animation-name: enter; }
+      .zoom-in { animation-name: enter; }
+      .slide-in-from-bottom-4 { animation-name: slideInBottom; }
+      .slide-in-from-right-4 { animation-name: slideInRight; }
+      .zoom-in-95 { animation-name: enter; }
+
+      /* Custom Components */
+      .font-grotesk { font-family: 'Space Grotesk', sans-serif; }
+      .font-inter { font-family: 'Inter Tight', sans-serif; }
+      .font-simple { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+      
+      /* Scrollbar */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #0A0A0A; }
+      ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #444; }
+
+      /* Interactive Elements */
+      .bento-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      .bento-card:hover { border-color: rgba(59, 130, 246, 0.4); transform: translateY(-2px); }
+      .glass-panel { background: rgba(23, 23, 23, 0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
