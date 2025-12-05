@@ -108,7 +108,7 @@ const WorkView: React.FC = () => {
                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-white">Adhumour</h3>
-                    <p className="text-sm text-[#666]">CRM Analyst &bull; Data-Driven Retention</p>
+                    <p className="text-sm text-[#666]">CRM Data Analyst &bull; Data-Driven Retention</p>
                   </div>
                   <div className="mt-2 md:mt-0 px-3 py-1 bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-mono rounded-full self-start md:self-auto">
                     25% Retention Uplift
