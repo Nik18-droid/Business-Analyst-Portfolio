@@ -28,15 +28,15 @@ const WorkView: React.FC = () => {
                     <ArrowUpRight className="w-5 h-5 text-[#444] group-hover:text-white transition-colors" />
                  </div>
                  <p className="text-sm text-[#A1A1AA] mb-6 leading-relaxed">
-                   Built an end-to-end churn analysis solution using SQL, Power BI, and Python. Developed a conversational AI interface (OpenAI API) to enable real-time data querying.
+                   End-to-End churn analysis. Built a solution using SQL, Power BI, and Python to identify ₹20.6 Lakhs in at-risk revenue.
                  </p>
                  <div className="grid grid-cols-2 gap-4 border-t border-[#333] pt-4">
                     <div>
-                       <div className="text-2xl font-bold text-white">95%</div>
+                       <div className="text-2xl font-bold text-white group-hover:text-blue-100 transition-colors">95%</div>
                        <div className="text-xs text-[#666] uppercase tracking-wider">Time Reduced</div>
                     </div>
                     <div>
-                       <div className="text-2xl font-bold text-white">₹20.6L</div>
+                       <div className="text-2xl font-bold text-white group-hover:text-blue-100 transition-colors">₹20.6L</div>
                        <div className="text-xs text-[#666] uppercase tracking-wider">Risk Identified</div>
                     </div>
                  </div>
@@ -58,15 +58,15 @@ const WorkView: React.FC = () => {
                     <ArrowUpRight className="w-5 h-5 text-[#444] group-hover:text-white transition-colors" />
                  </div>
                  <p className="text-sm text-[#A1A1AA] mb-6 leading-relaxed">
-                   Designed "Explore Map" to capture budget-first travelers leaking to aggregators. Built financial models and a functional HTML prototype.
+                   Strategic Product Prototype. Designed 'Explorer Map' feature to capture budget-first travelers, projecting an ₹875 Cr revenue opportunity.
                  </p>
                  <div className="grid grid-cols-2 gap-4 border-t border-[#333] pt-4">
                     <div>
-                       <div className="text-2xl font-bold text-white">₹875 Cr</div>
+                       <div className="text-2xl font-bold text-white group-hover:text-blue-100 transition-colors">₹875 Cr</div>
                        <div className="text-xs text-[#666] uppercase tracking-wider">Revenue Opp</div>
                     </div>
                     <div>
-                       <div className="text-2xl font-bold text-white">Strat</div>
+                       <div className="text-2xl font-bold text-white group-hover:text-blue-100 transition-colors">Strat</div>
                        <div className="text-xs text-[#666] uppercase tracking-wider">Proposal</div>
                     </div>
                  </div>

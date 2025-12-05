@@ -13,7 +13,7 @@ const Header: React.FC<NavProps> = ({ activeTab, onNavClick }) => {
         </div>
         <div>
           <h1 className="text-white font-simple font-bold text-xl tracking-wide leading-none uppercase">Nikhil Sharma</h1>
-          <p className="text-xs uppercase tracking-widest text-[#666] mt-0.5 font-semibold">Strategic Business Analyst</p>
+          <p className="text-xs uppercase tracking-widest text-[#666] mt-0.5 font-semibold">Technical Business Analyst & Process Optimizer</p>
         </div>
       </div>
 

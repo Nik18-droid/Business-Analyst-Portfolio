@@ -17,14 +17,14 @@ const ContactView: React.FC = () => {
           <div className="flex flex-col gap-4 max-w-md mx-auto">
              {/* Primary Email */}
              <a href="mailto:nikhil.sharma369@outlook.com" 
-                className="flex items-center justify-center gap-3 bg-white text-black font-semibold py-4 rounded-lg hover:bg-gray-200 transition-colors">
+                className="flex items-center justify-center gap-3 bg-[#111] border border-[#333] text-white font-semibold py-4 rounded-lg hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                 <Mail className="w-5 h-5" />
                 nikhil.sharma369@outlook.com
              </a>
 
              {/* Secondary Email */}
              <a href="mailto:nikhil_sharma1998@outlook.com" 
-                className="flex items-center justify-center gap-3 bg-[#111] border border-[#333] text-white font-semibold py-4 rounded-lg hover:bg-[#222] transition-colors">
+                className="flex items-center justify-center gap-3 bg-[#111] border border-[#333] text-white font-semibold py-4 rounded-lg hover:bg-white hover:text-black hover:border-white transition-all duration-300">
                 <Mail className="w-5 h-5" />
                 nikhil_sharma1998@outlook.com
              </a>

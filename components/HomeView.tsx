@@ -37,7 +37,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavClick }) => {
               </a>
               <button 
                 onClick={() => onNavClick('work')}
-                className="px-8 py-3 bg-[#111] border border-[#333] text-white font-semibold rounded-lg hover:bg-[#1a1a1a] hover:border-[#555] transition-all flex items-center justify-center gap-2"
+                className="px-8 py-3 bg-[#0A192F] border border-[#333] text-white font-semibold rounded-lg hover:bg-[#112d50] hover:border-[#444] transition-all flex items-center justify-center gap-2"
               >
                 <Briefcase className="w-4 h-4" />
                 View Work
@@ -60,7 +60,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavClick }) => {
                <div className="text-white font-bold text-2xl">Project Sentinel</div>
             </div>
             <div>
-               <div className="text-4xl font-grotesk font-bold text-white mb-1 group-hover:text-purple-400 transition-colors">95%</div>
+               <div className="text-4xl font-grotesk font-bold text-white mb-1 group-hover:text-blue-100 transition-colors">95%</div>
                <p className="text-sm text-[#888]">Analysis Time Reduced</p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavClick }) => {
                <div className="text-white font-bold text-2xl">IndiGo Airlines</div>
             </div>
             <div>
-               <div className="text-4xl font-grotesk font-bold text-white mb-1 group-hover:text-indigo-400 transition-colors">₹875 Cr</div>
+               <div className="text-4xl font-grotesk font-bold text-white mb-1 group-hover:text-blue-100 transition-colors">₹875 Cr</div>
                <p className="text-sm text-[#888]">Revenue Opportunity</p>
             </div>
           </div>
